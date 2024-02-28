@@ -5,10 +5,13 @@ import Card from "./components/card";
 import Input from "./components/input";
 
 function App() {
+  console.log('hello world')
+  console.log('this is merge conflict')
   const [name, setName] = useState("");
 
   return (
     <div className="App">
+      <p>Hi</p>
       <Card />
       <Input
         type="text"
