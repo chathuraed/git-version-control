@@ -6,7 +6,7 @@ import Input from "./components/input";
 
 function App() {
   console.log('hello world')
-  console.log('this is merge conflict')
+  console.log('this is merge conflict.')
   const [name, setName] = useState("");
 
   return (
